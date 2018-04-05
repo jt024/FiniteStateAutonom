@@ -39,32 +39,69 @@ public class FiniteStateAutonom {
                     }
                     
                 case 2:
-                    
+                    if(tape[iterator].equals("a")){
+                        state=2;
+                        iterator++;
+                        break;
+                    }
+                    else{
+                        state=3;
+                        iterator++;
+                        break;
+                    }
                 case 3:
-                    
+                    if(tape[iterator].equals("a")){
+                        state=2;
+                        iterator++;
+                        break;
+                    }
+                    else{
+                        state=3;
+                        iterator++;
+                        break;
+                    }                    
                 case 4:
-                    
+                    if(tape[iterator].equals("a")){
+                        state=2;
+                        iterator++;
+                        break;
+                    }
+                    else{
+                        state=3;
+                        iterator++;
+                        break;
+                    }                    
                 case 5:
-                    
+                    if(tape[iterator].equals("a")){
+                        state=2;
+                        iterator++;
+                        break;
+                    }
+                    else{
+                        state=3;
+                        iterator++;
+                        break;
+                    }                    
                 case 6:
-                    
+                    if(tape[iterator].equals("a")){
+                        state=2;
+                        iterator++;
+                        break;
+                    }
+                    else{
+                        state=3;
+                        iterator++;
+                        break;
+                    }                    
                 case 7:
                     
-                default:    
+                    
+                    
+                    
+                default: 
+                    
                                         
-                    
-                    
-                    
-                
-                
-                
-            }
-            
-            
-            
-            
-            
-            
+                }
         }
         
         
